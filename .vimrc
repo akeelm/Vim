@@ -83,23 +83,24 @@ Plugin 'gmarik/Vundle.vim'
              
               
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin) 
-Plugin 'scrooloose/nerdtree' 
-Plugin 'tmhedberg/SimpylFold' 
-Plugin 'itchyny/lightline.vim' 
-Plugin 'skammer/vim-css-color' 
-Plugin 'Valloric/YouCompleteMe' 
-Plugin 'janko-m/vim-test'
-Plugin 'Raimondi/delimitMate'                
-Plugin 'scrooloose/syntastic'
-Plugin 'ternjs/tern_for_vim'
-Plugin 'tpope/vim-surround'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'mileszs/ack.vim'
+Plugin 'scrooloose/nerdtree'	"Filetree browser 
+Plugin 'tmhedberg/SimpylFold'	"Fold code 
+Plugin 'itchyny/lightline.vim'  "Configurable VIM status line 
+Plugin 'skammer/vim-css-color'	"Show colours in CSS files 
+Plugin 'Valloric/YouCompleteMe' "Auto completion
+Plugin 'janko-m/vim-test'		"Run tests
+Plugin 'Raimondi/delimitMate'	"Auto close quotes, brackets etc.
+Plugin 'scrooloose/syntastic'	"Syntax checking / Linting
+Plugin 'ternjs/tern_for_vim'	"Javascript completion
+Plugin 'tpope/vim-surround'		"Surround text with stuff
+Plugin 'ctrlpvim/ctrlp.vim'		"File finder
+Plugin 'mileszs/ack.vim'		"Searching files
+Plugin 'tpope/vim-fugitive'		"Vim Git wrapper
 
 " Snippets Config
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
-Plugin 'ervandew/supertab'
+Plugin 'SirVer/ultisnips'		"Snippets
+Plugin 'honza/vim-snippets'		"Snippets collection
+Plugin 'ervandew/supertab'		"For ultisnips and YouCompleteMe to work together
 let g:SuperTabDefaultCompletionType    = '<C-n>'
 let g:SuperTabCrMapping                = 0
 let g:UltiSnipsExpandTrigger           = '<tab>'
