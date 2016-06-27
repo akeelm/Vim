@@ -1,0 +1,18 @@
+[submodule "Vundle.vim"]
+	path = Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim
+[submodule "nerdtree"]
+	path = nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "SimpylFold"]
+	path = SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold
+[submodule "lightline.vim"]
+	path = lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule "vim-css-color"]
+	path = vim-css-color
+	url = https://github.com/skammer/vim-css-color
+[submodule "YouCompleteMe"]
+	path = YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
